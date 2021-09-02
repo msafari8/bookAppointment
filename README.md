@@ -28,6 +28,9 @@ I also isolated the main files:
 - constants.js and config.js contain what they should (config should be in root folder but for the purpose of this demo its component based)
 - data.js is the static database for vendor-availability, the function to call it from backend is already included in the api-calls.js, because of lack of time, I didn't implement it.
 
+**To do:**
+**use Localizer for displaying texts, because of lack of time and not having any info on design-system, I chose not to use any localizer package, but it's easy to do and it's a must-have in my opinion.**
+
 ## Backend API
 
 the way I would request a backend API would be by creating a **Contract** and asking backend engineer to provide an API as follow: 
