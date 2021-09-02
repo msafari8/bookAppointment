@@ -1,5 +1,6 @@
 {
   "name": "booking",
+  "homepage": "http://msafari8.github.io/bookAppointment"
   "version": "0.1.0",
   "private": true,
   "dependencies": {
