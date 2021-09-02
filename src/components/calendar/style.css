@@ -83,7 +83,12 @@
 /*
 * Time slot component
 */
-
+.timeslot-container {
+    position: relative;
+    min-height: 150px;
+    width: 80%;
+    margin: 0 auto;
+}
 
 .timeslot-item,
 .btn {
@@ -101,13 +106,15 @@
     border-color: #ea4f83;
     color: #fff;
 }
-.timeslot-item.isReserved{
+
+.timeslot-item.isReserved {
     cursor: not-allowed;
     background-color: #9e9e9e;
     color: #ccc;
     border-color: #ccc;
 
 }
+
 /*
 * vendor-info component
 */
