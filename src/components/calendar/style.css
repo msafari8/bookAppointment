@@ -1,0 +1,174 @@
+/*
+- flexbox 
+*/
+
+.calendar-app-demo-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    transition: all 400ms linear;
+}
+
+.calendar-app-demo-container.--expanded {
+    max-width: 1400px;
+}
+
+.calendarComponent-wrapper {
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.calendarComponent-vendor {
+    flex: 25%;
+}
+
+.calendarComponent-container {
+    flex: 30%;
+
+}
+
+.calendarComponent-timeslots {
+    flex: 25%;
+
+}
+
+
+@media (max-width: 60em) {
+    .calendarComponent-wrapper {
+        flex-direction: column;
+    }
+}
+
+/*
+- Calendar Styling
+*/
+.nice-calendar-container {
+    border: 2px solid #f6f8fa;
+    border-radius: 3px;
+    margin: 0;
+    position: relative;
+}
+
+.nice-dates-day.-disabled {
+    cursor: default;
+    pointer-events: none;
+    color: #d3dde6;
+}
+
+.nice-dates-day.-wide:after,
+.nice-dates-day.-wide:before {
+    left: 12.5%;
+    right: 12.5%;
+    border-radius: 0;
+}
+
+.nice-dates-day_date {
+    font-size: 1rem;
+}
+
+.nice-dates-day:before {
+    background-color: #ea4f83;
+    z-index: 1;
+}
+
+.nice-dates-day:after {
+    border: 2px solid #ea4f83;
+    transform: scale(.95);
+    transition-duration: .15s;
+    transition-property: transform, opacity;
+    z-index: 2;
+}
+
+/*
+* Time slot component
+*/
+
+
+.timeslot-item,
+.btn {
+    display: block;
+    border: 1px solid #ccc;
+    width: 50%;
+    padding: 15px;
+    margin: 2% auto;
+    cursor: pointer;
+}
+
+.timeslot-item:hover,
+.btn:hover {
+    background-color: #ea4f83;
+    border-color: #ea4f83;
+    color: #fff;
+}
+.timeslot-item.isReserved{
+    cursor: not-allowed;
+    background-color: #9e9e9e;
+    color: #ccc;
+    border-color: #ccc;
+
+}
+/*
+* vendor-info component
+*/
+.vendor-info-container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 3% 1%;
+    border: 1px solid #ccc;
+}
+
+
+
+
+/*
+* vendor booking
+*/
+.calendarComponent-vendor-booking {
+    flex: 25% 1;
+}
+
+.vendor-booking-container {
+    flex: 30% 1;
+    padding: 3% 1%;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.vendor-booking-container .success-message {
+    font-size: 1.2rem;
+    color: #77dd32
+}
+
+.message-form-container textarea {
+    border: 1px solid #e91e63;
+    padding: 10px 5px;
+}
+
+.message-form-container .btn.book-appointment {}
+
+.message-form-container .required-field {
+    font-size: 0.8rem;
+    color: #ff0000;
+}
+
+/*
+*Loading
+*/
+.loading-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: #e91e63d6;
+}
+
+.loading-text {
+    color: #fff;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+}
