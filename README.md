@@ -23,7 +23,7 @@ they are called inside index.js which includes only js.
 
 I also isolated the main files:
 - logic.js: contains logic 
-- api-client.js: contains api client for ***supabase***.
+- api-client.js: contains api client for ***supabase***. supabase has some limitations therefore I had to do some ugly minor adjustments in the code
 - api-calls.js: contains all the api calls
 - constants.js and config.js contain what they should (config should be in root folder but for the purpose of this demo its component based)
 - data.js is the static database for vendor-availability, the function to call it from backend is already included in the api-calls.js, because of lack of time, I didn't implement it.
