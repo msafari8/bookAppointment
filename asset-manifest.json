@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bookAppointment/static/css/main.fe224b12.chunk.css",
-    "main.js": "/bookAppointment/static/js/main.3638d7b3.chunk.js",
-    "main.js.map": "/bookAppointment/static/js/main.3638d7b3.chunk.js.map",
+    "main.css": "/bookAppointment/static/css/main.c52c1012.chunk.css",
+    "main.js": "/bookAppointment/static/js/main.cbadfad1.chunk.js",
+    "main.js.map": "/bookAppointment/static/js/main.cbadfad1.chunk.js.map",
     "runtime-main.js": "/bookAppointment/static/js/runtime-main.0066b069.js",
     "runtime-main.js.map": "/bookAppointment/static/js/runtime-main.0066b069.js.map",
     "static/css/2.d9632a4e.chunk.css": "/bookAppointment/static/css/2.d9632a4e.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.2510811d.chunk.js.map": "/bookAppointment/static/js/3.2510811d.chunk.js.map",
     "index.html": "/bookAppointment/index.html",
     "static/css/2.d9632a4e.chunk.css.map": "/bookAppointment/static/css/2.d9632a4e.chunk.css.map",
-    "static/css/main.fe224b12.chunk.css.map": "/bookAppointment/static/css/main.fe224b12.chunk.css.map",
+    "static/css/main.c52c1012.chunk.css.map": "/bookAppointment/static/css/main.c52c1012.chunk.css.map",
     "static/js/2.a0d227f6.chunk.js.LICENSE.txt": "/bookAppointment/static/js/2.a0d227f6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0066b069.js",
     "static/css/2.d9632a4e.chunk.css",
     "static/js/2.a0d227f6.chunk.js",
-    "static/css/main.fe224b12.chunk.css",
-    "static/js/main.3638d7b3.chunk.js"
+    "static/css/main.c52c1012.chunk.css",
+    "static/js/main.cbadfad1.chunk.js"
   ]
 }
